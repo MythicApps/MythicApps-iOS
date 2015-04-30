@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D756B7E1AF27629003A377D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D756B7D1AF27629003A377D /* main.m */; };
+		6D756B811AF27629003A377D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D756B801AF27629003A377D /* AppDelegate.m */; };
+		6D756B841AF2762C003A377D /* MythicApps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D756B821AF2762B003A377D /* MythicApps.xcdatamodeld */; };
+		6D756B871AF2762C003A377D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D756B861AF2762C003A377D /* MasterViewController.m */; };
+		6D756B8A1AF2762C003A377D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D756B891AF2762C003A377D /* DetailViewController.m */; };
+		6D756B8D1AF2762C003A377D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D756B8B1AF2762C003A377D /* Main.storyboard */; };
+		6D756B8F1AF2762C003A377D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D756B8E1AF2762C003A377D /* Images.xcassets */; };
+		6D756B921AF2762C003A377D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D756B901AF2762C003A377D /* LaunchScreen.xib */; };
+		6D756B9E1AF2762D003A377D /* MythicAppsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D756B9D1AF2762D003A377D /* MythicAppsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6D756B981AF2762D003A377D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D756B701AF27629003A377D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D756B771AF27629003A377D;
+			remoteInfo = MythicApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D756B781AF27629003A377D /* MythicApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MythicApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D756B7C1AF27629003A377D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D756B7D1AF27629003A377D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D756B7F1AF27629003A377D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D756B801AF27629003A377D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D756B831AF2762B003A377D /* MythicApps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MythicApps.xcdatamodel; sourceTree = "<group>"; };
+		6D756B851AF2762C003A377D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		6D756B861AF2762C003A377D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		6D756B881AF2762C003A377D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6D756B891AF2762C003A377D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6D756B8C1AF2762C003A377D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D756B8E1AF2762C003A377D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D756B911AF2762C003A377D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6D756B971AF2762D003A377D /* MythicAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MythicAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D756B9C1AF2762D003A377D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D756B9D1AF2762D003A377D /* MythicAppsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MythicAppsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D756B751AF27629003A377D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D756B941AF2762D003A377D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D756B6F1AF27629003A377D = {
+			isa = PBXGroup;
+			children = (
+				6D756B7A1AF27629003A377D /* MythicApps */,
+				6D756B9A1AF2762D003A377D /* MythicAppsTests */,
+				6D756B791AF27629003A377D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D756B791AF27629003A377D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D756B781AF27629003A377D /* MythicApps.app */,
+				6D756B971AF2762D003A377D /* MythicAppsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D756B7A1AF27629003A377D /* MythicApps */ = {
+			isa = PBXGroup;
+			children = (
+				6D756B7F1AF27629003A377D /* AppDelegate.h */,
+				6D756B801AF27629003A377D /* AppDelegate.m */,
+				6D756B851AF2762C003A377D /* MasterViewController.h */,
+				6D756B861AF2762C003A377D /* MasterViewController.m */,
+				6D756B881AF2762C003A377D /* DetailViewController.h */,
+				6D756B891AF2762C003A377D /* DetailViewController.m */,
+				6D756B8B1AF2762C003A377D /* Main.storyboard */,
+				6D756B8E1AF2762C003A377D /* Images.xcassets */,
+				6D756B901AF2762C003A377D /* LaunchScreen.xib */,
+				6D756B821AF2762B003A377D /* MythicApps.xcdatamodeld */,
+				6D756B7B1AF27629003A377D /* Supporting Files */,
+			);
+			path = MythicApps;
+			sourceTree = "<group>";
+		};
+		6D756B7B1AF27629003A377D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D756B7C1AF27629003A377D /* Info.plist */,
+				6D756B7D1AF27629003A377D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D756B9A1AF2762D003A377D /* MythicAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D756B9D1AF2762D003A377D /* MythicAppsTests.m */,
+				6D756B9B1AF2762D003A377D /* Supporting Files */,
+			);
+			path = MythicAppsTests;
+			sourceTree = "<group>";
+		};
+		6D756B9B1AF2762D003A377D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D756B9C1AF2762D003A377D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D756B771AF27629003A377D /* MythicApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D756BA11AF2762E003A377D /* Build configuration list for PBXNativeTarget "MythicApps" */;
+			buildPhases = (
+				6D756B741AF27629003A377D /* Sources */,
+				6D756B751AF27629003A377D /* Frameworks */,
+				6D756B761AF27629003A377D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MythicApps;
+			productName = MythicApps;
+			productReference = 6D756B781AF27629003A377D /* MythicApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6D756B961AF2762D003A377D /* MythicAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D756BA41AF2762E003A377D /* Build configuration list for PBXNativeTarget "MythicAppsTests" */;
+			buildPhases = (
+				6D756B931AF2762D003A377D /* Sources */,
+				6D756B941AF2762D003A377D /* Frameworks */,
+				6D756B951AF2762D003A377D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D756B991AF2762D003A377D /* PBXTargetDependency */,
+			);
+			name = MythicAppsTests;
+			productName = MythicAppsTests;
+			productReference = 6D756B971AF2762D003A377D /* MythicAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D756B701AF27629003A377D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Yoseph Radding";
+				TargetAttributes = {
+					6D756B771AF27629003A377D = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					6D756B961AF2762D003A377D = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 6D756B771AF27629003A377D;
+					};
+				};
+			};
+			buildConfigurationList = 6D756B731AF27629003A377D /* Build configuration list for PBXProject "MythicApps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D756B6F1AF27629003A377D;
+			productRefGroup = 6D756B791AF27629003A377D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D756B771AF27629003A377D /* MythicApps */,
+				6D756B961AF2762D003A377D /* MythicAppsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D756B761AF27629003A377D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D756B8D1AF2762C003A377D /* Main.storyboard in Resources */,
+				6D756B921AF2762C003A377D /* LaunchScreen.xib in Resources */,
+				6D756B8F1AF2762C003A377D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D756B951AF2762D003A377D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D756B741AF27629003A377D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D756B8A1AF2762C003A377D /* DetailViewController.m in Sources */,
+				6D756B871AF2762C003A377D /* MasterViewController.m in Sources */,
+				6D756B811AF27629003A377D /* AppDelegate.m in Sources */,
+				6D756B7E1AF27629003A377D /* main.m in Sources */,
+				6D756B841AF2762C003A377D /* MythicApps.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D756B931AF2762D003A377D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D756B9E1AF2762D003A377D /* MythicAppsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D756B991AF2762D003A377D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D756B771AF27629003A377D /* MythicApps */;
+			targetProxy = 6D756B981AF2762D003A377D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6D756B8B1AF2762C003A377D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D756B8C1AF2762C003A377D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D756B901AF2762C003A377D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D756B911AF2762C003A377D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D756B9F1AF2762E003A377D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6D756BA01AF2762E003A377D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D756BA21AF2762E003A377D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MythicApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6D756BA31AF2762E003A377D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MythicApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6D756BA51AF2762E003A377D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MythicAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MythicApps.app/MythicApps";
+			};
+			name = Debug;
+		};
+		6D756BA61AF2762E003A377D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MythicAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MythicApps.app/MythicApps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D756B731AF27629003A377D /* Build configuration list for PBXProject "MythicApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D756B9F1AF2762E003A377D /* Debug */,
+				6D756BA01AF2762E003A377D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D756BA11AF2762E003A377D /* Build configuration list for PBXNativeTarget "MythicApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D756BA21AF2762E003A377D /* Debug */,
+				6D756BA31AF2762E003A377D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6D756BA41AF2762E003A377D /* Build configuration list for PBXNativeTarget "MythicAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D756BA51AF2762E003A377D /* Debug */,
+				6D756BA61AF2762E003A377D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D756B821AF2762B003A377D /* MythicApps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D756B831AF2762B003A377D /* MythicApps.xcdatamodel */,
+			);
+			currentVersion = 6D756B831AF2762B003A377D /* MythicApps.xcdatamodel */;
+			path = MythicApps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6D756B701AF27629003A377D /* Project object */;
+}
