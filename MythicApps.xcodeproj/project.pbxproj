@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A937336C0D9E8CDFEBA5732 /* libPods-MythicApps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AF8D6CC67E41DDF0F36DBE /* libPods-MythicApps.a */; };
+		6D0F08A91AF7CFF9000FFD1F /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D0F08A51AF7CFF9000FFD1F /* Moon.png */; };
+		6D0F08AA1AF7CFF9000FFD1F /* sky.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6D0F08A61AF7CFF9000FFD1F /* sky.JPG */; };
+		6D0F08AB1AF7CFF9000FFD1F /* water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D0F08A71AF7CFF9000FFD1F /* water.jpg */; };
+		6D0F08AC1AF7CFF9000FFD1F /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D0F08A81AF7CFF9000FFD1F /* ship.png */; };
+		6D0F08AF1AF7D4A8000FFD1F /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0F08AE1AF7D4A8000FFD1F /* AnimationViewController.m */; };
+		6D0F08B11AF7DB7F000FFD1F /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D0F08B01AF7DB7F000FFD1F /* bubble.png */; };
 		6D756B7E1AF27629003A377D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D756B7D1AF27629003A377D /* main.m */; };
 		6D756B811AF27629003A377D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D756B801AF27629003A377D /* AppDelegate.m */; };
 		6D756B841AF2762C003A377D /* MythicApps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D756B821AF2762B003A377D /* MythicApps.xcdatamodeld */; };
-		6D756B871AF2762C003A377D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D756B861AF2762C003A377D /* MasterViewController.m */; };
-		6D756B8A1AF2762C003A377D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D756B891AF2762C003A377D /* DetailViewController.m */; };
 		6D756B8D1AF2762C003A377D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D756B8B1AF2762C003A377D /* Main.storyboard */; };
 		6D756B8F1AF2762C003A377D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D756B8E1AF2762C003A377D /* Images.xcassets */; };
 		6D756B921AF2762C003A377D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D756B901AF2762C003A377D /* LaunchScreen.xib */; };
 		6D756B9E1AF2762D003A377D /* MythicAppsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D756B9D1AF2762D003A377D /* MythicAppsTests.m */; };
+		6D756BA91AF276C0003A377D /* MAApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D756BA81AF276C0003A377D /* MAApi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,22 +35,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D0F08A51AF7CFF9000FFD1F /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Moon.png; path = ../../Desktop/Moon.png; sourceTree = "<group>"; };
+		6D0F08A61AF7CFF9000FFD1F /* sky.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sky.JPG; path = ../../Desktop/sky.JPG; sourceTree = "<group>"; };
+		6D0F08A71AF7CFF9000FFD1F /* water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = water.jpg; path = ../../Desktop/water.jpg; sourceTree = "<group>"; };
+		6D0F08A81AF7CFF9000FFD1F /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ship.png; path = ../../Desktop/ship.png; sourceTree = "<group>"; };
+		6D0F08AD1AF7D4A8000FFD1F /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		6D0F08AE1AF7D4A8000FFD1F /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		6D0F08B01AF7DB7F000FFD1F /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bubble.png; path = ../../Desktop/bubble.png; sourceTree = "<group>"; };
 		6D756B781AF27629003A377D /* MythicApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MythicApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D756B7C1AF27629003A377D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D756B7D1AF27629003A377D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D756B7F1AF27629003A377D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D756B801AF27629003A377D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6D756B831AF2762B003A377D /* MythicApps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MythicApps.xcdatamodel; sourceTree = "<group>"; };
-		6D756B851AF2762C003A377D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		6D756B861AF2762C003A377D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		6D756B881AF2762C003A377D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		6D756B891AF2762C003A377D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		6D756B8C1AF2762C003A377D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D756B8E1AF2762C003A377D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6D756B911AF2762C003A377D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6D756B971AF2762D003A377D /* MythicAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MythicAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D756B9C1AF2762D003A377D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D756B9D1AF2762D003A377D /* MythicAppsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MythicAppsTests.m; sourceTree = "<group>"; };
+		6D756BA71AF276C0003A377D /* MAApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAApi.h; sourceTree = "<group>"; };
+		6D756BA81AF276C0003A377D /* MAApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAApi.m; sourceTree = "<group>"; };
+		D9AF8D6CC67E41DDF0F36DBE /* libPods-MythicApps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MythicApps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0CE0F19A0843EC5142397FF /* Pods-MythicApps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MythicApps.release.xcconfig"; path = "Pods/Target Support Files/Pods-MythicApps/Pods-MythicApps.release.xcconfig"; sourceTree = "<group>"; };
+		EF16E0A7D928B083397BB9E4 /* Pods-MythicApps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MythicApps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MythicApps/Pods-MythicApps.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A937336C0D9E8CDFEBA5732 /* libPods-MythicApps.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6088615FF38D09D96B227124 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9AF8D6CC67E41DDF0F36DBE /* libPods-MythicApps.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6D756B6F1AF27629003A377D = {
 			isa = PBXGroup;
 			children = (
+				6D756BAA1AF276D2003A377D /* API */,
 				6D756B7A1AF27629003A377D /* MythicApps */,
 				6D756B9A1AF2762D003A377D /* MythicAppsTests */,
 				6D756B791AF27629003A377D /* Products */,
+				F4CD8638AE9BE7AC0096F9C0 /* Pods */,
+				6088615FF38D09D96B227124 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,13 +114,16 @@
 			children = (
 				6D756B7F1AF27629003A377D /* AppDelegate.h */,
 				6D756B801AF27629003A377D /* AppDelegate.m */,
-				6D756B851AF2762C003A377D /* MasterViewController.h */,
-				6D756B861AF2762C003A377D /* MasterViewController.m */,
-				6D756B881AF2762C003A377D /* DetailViewController.h */,
-				6D756B891AF2762C003A377D /* DetailViewController.m */,
 				6D756B8B1AF2762C003A377D /* Main.storyboard */,
+				6D0F08AD1AF7D4A8000FFD1F /* AnimationViewController.h */,
+				6D0F08AE1AF7D4A8000FFD1F /* AnimationViewController.m */,
 				6D756B8E1AF2762C003A377D /* Images.xcassets */,
 				6D756B901AF2762C003A377D /* LaunchScreen.xib */,
+				6D0F08A51AF7CFF9000FFD1F /* Moon.png */,
+				6D0F08A61AF7CFF9000FFD1F /* sky.JPG */,
+				6D0F08A71AF7CFF9000FFD1F /* water.jpg */,
+				6D0F08B01AF7DB7F000FFD1F /* bubble.png */,
+				6D0F08A81AF7CFF9000FFD1F /* ship.png */,
 				6D756B821AF2762B003A377D /* MythicApps.xcdatamodeld */,
 				6D756B7B1AF27629003A377D /* Supporting Files */,
 			);
@@ -127,6 +156,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6D756BAA1AF276D2003A377D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				6D756BA71AF276C0003A377D /* MAApi.h */,
+				6D756BA81AF276C0003A377D /* MAApi.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		F4CD8638AE9BE7AC0096F9C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF16E0A7D928B083397BB9E4 /* Pods-MythicApps.debug.xcconfig */,
+				E0CE0F19A0843EC5142397FF /* Pods-MythicApps.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D756BA11AF2762E003A377D /* Build configuration list for PBXNativeTarget "MythicApps" */;
 			buildPhases = (
+				CBC55AB177CCAF1D83F34FDF /* Check Pods Manifest.lock */,
 				6D756B741AF27629003A377D /* Sources */,
 				6D756B751AF27629003A377D /* Frameworks */,
 				6D756B761AF27629003A377D /* Resources */,
+				D75F1889958B4937DA5C002E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,9 +256,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0F08AA1AF7CFF9000FFD1F /* sky.JPG in Resources */,
+				6D0F08B11AF7DB7F000FFD1F /* bubble.png in Resources */,
+				6D0F08A91AF7CFF9000FFD1F /* Moon.png in Resources */,
 				6D756B8D1AF2762C003A377D /* Main.storyboard in Resources */,
 				6D756B921AF2762C003A377D /* LaunchScreen.xib in Resources */,
 				6D756B8F1AF2762C003A377D /* Images.xcassets in Resources */,
+				6D0F08AB1AF7CFF9000FFD1F /* water.jpg in Resources */,
+				6D0F08AC1AF7CFF9000FFD1F /* ship.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,15 +276,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CBC55AB177CCAF1D83F34FDF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D75F1889958B4937DA5C002E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MythicApps/Pods-MythicApps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D756B741AF27629003A377D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D756B8A1AF2762C003A377D /* DetailViewController.m in Sources */,
-				6D756B871AF2762C003A377D /* MasterViewController.m in Sources */,
 				6D756B811AF27629003A377D /* AppDelegate.m in Sources */,
 				6D756B7E1AF27629003A377D /* main.m in Sources */,
+				6D0F08AF1AF7D4A8000FFD1F /* AnimationViewController.m in Sources */,
+				6D756BA91AF276C0003A377D /* MAApi.m in Sources */,
 				6D756B841AF2762C003A377D /* MythicApps.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,6 +442,7 @@
 		};
 		6D756BA21AF2762E003A377D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF16E0A7D928B083397BB9E4 /* Pods-MythicApps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MythicApps/Info.plist;
@@ -365,6 +453,7 @@
 		};
 		6D756BA31AF2762E003A377D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0CE0F19A0843EC5142397FF /* Pods-MythicApps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MythicApps/Info.plist;
@@ -426,6 +515,7 @@
 				6D756BA31AF2762E003A377D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D756BA41AF2762E003A377D /* Build configuration list for PBXNativeTarget "MythicAppsTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +524,7 @@
 				6D756BA61AF2762E003A377D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
